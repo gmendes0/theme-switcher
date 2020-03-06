@@ -6,5 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     paddin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color: ${props => props.theme.colors.background};
+    color: ${props => props.theme.colors.text};
   }
 `;
